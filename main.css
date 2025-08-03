@@ -1,0 +1,40 @@
+body {
+    background-color: #d3d4f5;
+}
+
+/* Estilo de la tarjeta principal */
+.card {
+    width: 30rem; /* Aumenta el ancho */
+    height: 12rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f9f9f9;
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+.btnotas {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Segoe UI';
+    font-size: 1.25rem;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 12px;
+    color: #fefefe;
+    background-color: #004080;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btnotas:hover {
+    background-color: #0059b3;
+    transform: scale(1.02);
+}

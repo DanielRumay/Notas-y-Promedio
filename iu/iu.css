@@ -1,0 +1,22 @@
+body {
+    background-color: #d3f5d6; /* Cambia este color como desees */
+}
+.card{
+    background-color: #f2f9f1;
+}
+.boton-regresar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: #ff0000; /* Azul Bootstrap */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    font-family: sans-serif;
+}
